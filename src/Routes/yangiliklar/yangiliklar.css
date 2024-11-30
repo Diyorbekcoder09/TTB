@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.pech3 {
+    font-size: 42px;
+    text-align: center;
+    color: cadetblue;
+    margin: 20px;
+}
+
+.yangi {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 30px;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.y_card {
+    width: 600px;
+    height: 600px;
+    padding: 15px;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.now {
+    width: 300px;
+    height: 300px;
+}
+
+.now_text {
+    width: 100%;
+    font-size: 16px;
+    color: cadetblue;
+    margin-top: 15px;
+}
